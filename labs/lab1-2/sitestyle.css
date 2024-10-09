@@ -1,0 +1,52 @@
+body 
+{
+    background-color: gainsboro;
+}
+h1
+{
+    font-size: 24;
+    color: black;
+    margin: 10;
+}
+h2
+{
+    font-size: 16;
+    color: black;
+    margin: 10;
+    padding: 15;
+}
+ul
+{
+    font-size: 14;
+    color: gray;
+    margin: 10;
+    padding: 15;
+}
+a
+{
+    font-size: 14;
+    color: midnightblue;
+    margin: 10;
+    padding: 10;
+}
+.content{
+    display: flex;
+    margin: 25;
+}
+.content-right{
+    background-color: pink;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1%;
+    padding: 1%;
+    border-radius: 40px;
+}
+.content-left{
+    border-radius: 40px;
+    background-color: bisque;
+    width: 40%;
+    padding: 1%;
+
+}
