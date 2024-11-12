@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Таблицы</title>
+    <div class="header">
+        <a href="frontend2.html">Основная страница</a>
+        <a href="page2.html">Позиционирование элементов</a>
+        <a href="table.html">Таблица</a>
+    </div>
+    <link rel="stylesheet" href="table.css">
+</head>
+
+<body>
+    <form>
+        <div class="forma">
+            <label for="name">ФИО студента:</label><br>
+            <input type="text" id="name" name="name">
+            <br>
+            <label for="Zbook">№ зачетной книжки:</label><br>
+            <input type="text" id="Zbook" name="Zbook">
+            <br>
+            <label for="group">Номер группы:</label><br>
+            <input type="text" id="group" name="group">
+            <br>
+            <label for="sex">Пол:</label><br>
+            <input type="radio" id="man" name="sex" value="Man">
+            <label for="man">Мужской</label><br>
+            <input type="radio" id="woman" name="sex" value="Woman">
+            <label for="woman">Женский</label>
+            <br>
+            <label for="age">Возраст:</label>
+            <input type="text" id="age" name="age">
+            <br>
+            <label for="education_form">Форма поступления:</label><br>
+            <input type="radio" id="free" name="education_form" value="Free">
+            <label for="free">Бюджетная</label><br>
+            <input type="radio" id="notfree" name="education_form" value="NotFree">
+            <label for="notfree">Платная</label><br>
+            <input type="radio" id="maybefree" name="education_form" value="MaybeFree">
+            <label for="maybefree">Целевая</label>
+            <br>
+            <label for="ugabuga">Название направления:</label><br>
+            <input type="text" id="ugabuga" name="ugabuga">
+            <br>
+            <br>
+            <input type="submit" value="Отправить">
+        </div>
+    </form>
+    <br>
+    <table>
+        <caption style="font-size: 25px;">Список на отчисление</caption>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>ФИО студента</th>
+                <th>№ зачетной книжки</th>
+                <th>номер группы</th>
+                <th>пол</th>
+                <th>возраст</th>
+                <th>форма поступления</th>
+                <th>название направления</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="background-color: white;">
+                <td>1</td>
+                <td> Нестрыгин Олег Субарович</td>
+                <td>2023-004241</td>
+                <td>1305</td>
+                <td>М</td>
+                <td>20</td>
+                <td>бюджетная</td>
+                <td>Самолето-вертолетостроение</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <table>
+        <caption style="font-size: 25px;">Моя успеваемость</caption>
+        <thead>
+            <tr>
+                <th>№ лабы</th>
+                <th>Тема лабы</th>
+                <th>Сдана</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="background-color: bisque;">
+                <td>1</td>
+                <td>Создание простейших HTML страниц</td>
+                <td><input type="checkbox" checked></td>
+            </tr>
+            <tr style="background-color: greenyellow;">
+                <td>2</td>
+                <td>Работа с CSS</td>
+                <td><input type="checkbox" checked></td>
+            </tr>
+            <tr style="background-color: beige;">
+                <td>3</td>
+                <td>Позиционирование объектов с помощью CSS и HTML</td>
+                <td><input type="checkbox" checked></td>
+            </tr>
+            <tr style="background-color: khaki;">
+                <td>4</td>
+                <td>Добавление таблиц с помощью HTML</td>
+                <td><input type="checkbox" checked></td>
+            </tr>
+            <tr style="background-color: palegoldenrod;">
+                <td>5</td>
+                <td>Обработка действий пользователя</td>
+                <td><input type="checkbox" checked></td>
+            </tr>
+            <tr style="background-color: rosybrown;">
+                <td>6</td>
+                <td>Подключение и использование CSS Bootstrap для верстки страниц</td>
+                <td><input type="checkbox"></td>
+            </tr>
+            <tr style="background-color: tan;">
+                <td>7</td>
+                <td>Система сеток CSS и т.д.</td>
+                <td><input type="checkbox"></td>
+            </tr>
+
+        </tbody>
+    </table>
+</body>
+
+</html>

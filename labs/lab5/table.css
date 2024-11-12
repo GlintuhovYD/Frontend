@@ -1,0 +1,40 @@
+body {
+    background-color: azure;
+}
+
+.header {
+    text-align: right;
+    margin: 5px;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: auto;
+    margin: auto;
+}
+
+th {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+    background-color: gainsboro;
+}
+
+td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.forma {
+    
+    background-color: bisque;
+    border-radius: 15px;
+    padding: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 170px;
+    text-align: left;
+
+}
