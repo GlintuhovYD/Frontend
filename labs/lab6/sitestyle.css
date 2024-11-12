@@ -1,0 +1,5 @@
+.cards {
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+}

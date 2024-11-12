@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Информация об актере</title>
+    <div class="container-1">
+        <ul class="nav justify-content-center nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" href="info.html">Основная информация</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="films.html">Фильмы</a>
+            </li>
+        </ul>
+    </div>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="sitestyle.css">
+</head>
+
+<body>
+    <nav class="navbar text-body fixed-bottom">
+        <div class="container-fluid">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#list-item-1">Фото</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#list-item-2">Фильмы</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#list-item-3">Биография</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner" id="list-item-1">
+            <div class="carousel-item active">
+                <img src="images/rg1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="images/rg2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="images/rg3.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div><br>
+
+    <div class="cards" id="list-item-2">
+        <div class="card" style="width: 18rem;">
+            <img src="images/Barbie.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Барби</h5>
+                <p class="card-text">Барби была изгнана из Барбиленда из-за несоответствия его стандартам красоты. В
+                    этот момент она решает начать свою новую жизнь в реальном мире и скоро осознает, что настоящее
+                    совершенство достигается лишь через внутреннюю гармонию.</p>
+                <a href="https://www.kinopoisk.ru/film/478052/" class="btn btn-primary">Барби на Кинопоиск</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="images/BPL.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Бегущий по лезвию 2049</h5>
+                <p class="card-text">Мир недалекого будущего представляет собой сложную систему, в которой люди и
+                    репликанты соседствуют друг с другом. Репликанты выполняют самую тяжелую работу и практически
+                    лишены
+                    прав. Полицейский по имени Кей следит за репликантами, стараясь не допустить чрезмерного
+                    напряжения
+                    обстановки.</p>
+                <a href="https://www.kinopoisk.ru/film/589290/" class="btn btn-primary">Бегущий по лезвию 2049 на
+                    Кинопоиск</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="images/Drive.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Драйв</h5>
+                <p class="card-text">Молчаливый водитель спасает девушку от гангстеров. Неонуар с Райаном Гослингом
+                    и
+                    пульсирующим саундтреком</p>
+                <a href="https://hd.kinopoisk.ru/film/431d3d9a64a6ba1ab4d2dd29b3c6af6d" class="btn btn-primary">Драйв на
+                    Кинопоиск</a>
+            </div>
+        </div>
+    </div><br>
+
+    <p style="display: flex; justify-content: center;" id="list-item-3">
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample"
+            aria-expanded="false" aria-controls="collapseExample">
+            Краткая информация об актере
+        </button>
+    </p>
+    <div class="collapse" id="collapseExample">
+        <div class="card card-body">
+            Ра́йан То́мас Го́слинг (англ. Ryan Thomas Gosling, род. 12 ноября 1980, Лондон, Онтарио, Канада) —
+            канадский
+            актёр. Известен по ролям в независимых фильмах и крупных студийных проектах разных жанров. Сборы фильмов
+            с
+            его участием составили свыше 1,9 миллиарда долларов. Обладатель многих наград, включая «Золотого
+            глобуса», и номинант трёх «Оскаров» и одного BAFTA.<br>
+
+            Гослинг родился и вырос в Канаде. Обрёл известность в 13 лет как ребёнок-актёр в программе телеканала
+            Disney
+            Channel «Клуб Микки Мауса» и появился в нескольких семейных передачах, в том числе «Боишься ли ты
+            темноты?»,
+            «Мурашки» и «На волне успеха». Прорывом стала роль еврейского неонациста в фильме «Фанатик», а в
+            романтической драме «Дневник памяти» Гослинг завоевал славу.<br>
+
+            Гослинг сыграл в независимых драмах «Полу-Нельсон», за которую актёра номинировали на «Оскар» за лучшую
+            мужскую роль; «Ларс и настоящая девушка» и «Валентинка». В 2011 году Гослинг снялся в трёх мейнстримных
+            фильмах: романтической комедии «Эта дурацкая любовь», политической драме «Мартовские иды», и
+            экшн-триллере
+            «Драйв». После режиссёрского дебюта «Как поймать монстра» Гослинг сыграл в финансовой сатире «Игра на
+            понижение», экшн-комедии «Славные парни» и романтическом мюзикле «Ла-Ла Ленд», принёсшем актёру
+            статуэтку
+            «Золотого глобуса» и вторую номинацию на «Оскар» за лучшую мужскую роль. Дальнейшее признание пришло к
+            нему
+            после научно-фантастического фильма «Бегущий по лезвию 2049» и байопика «Человек на Луне». В 2023 году
+            Гослинг сыграл Кена в фэнтезийной комедии «Барби», ставшей самой кассовой картиной в его карьере.<br>
+
+            Гослинг играл в группе Dead Man’s Bones, которая выпустила одноимённый дебютный альбом и гастролировала
+            по
+            Северной Америке в 2009 году. Актёр владеет марокканским рестораном в Беверли-Хиллз. Гослинг
+            поддерживает
+            организации PETA, Invisible Children и Enough Project. Он состоит в отношениях с актрисой Евой
+            Мендес, которая родила ему двух дочерей.<br>
+        </div>
+    </div>
+</body>
+
+</html>
