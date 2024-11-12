@@ -15,4 +15,4 @@
 [Лабораторная работа №2](https://glintuhovyd.github.io/Frontend/labs/lab1-2/FrontendLab2.html)\
 [Лабораторная работа №3](https://glintuhovyd.github.io/Frontend/labs/lab3/page2.html)\
 [Лабораторная работа №4](https://glintuhovyd.github.io/Frontend/labs/lab4/table.html)\
-[Лабораторная работа №5](https://glintuhovyd.github.io/Frontend/labs/lab5/table.html)\
+[Лабораторная работа №5](https://glintuhovyd.github.io/Frontend/labs/lab5/table.html)
