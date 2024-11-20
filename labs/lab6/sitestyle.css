@@ -3,3 +3,9 @@
     display: flex;
     justify-content: center;
 }
+.info{
+    background-color:azure;
+    padding: 10px;
+    border-radius: 20px;
+    width: 400px;
+}
